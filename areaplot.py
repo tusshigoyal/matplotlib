@@ -11,7 +11,7 @@ plt.plot([],[],color='m',label="sleeping",linewidth=5)
 plt.plot([],[],color='g',label="eating",linewidth=5)
 plt.plot([],[],color='r',label="working",linewidth=5)
 plt.plot([],[],color='k',label="playing",linewidth=5)
-
+#m=magenta,k=black
 plt.stackplot(days,sleeping,eating,working,playing,colors=['m','g','r','k'])
 
 plt.xlabel('x')
