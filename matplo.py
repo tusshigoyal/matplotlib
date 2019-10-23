@@ -16,7 +16,13 @@ y=[3,6,9,2]
 
 
 # In[22]:
+matplotlib.use('TkAgg')
+fig = plt.figure()
+ax = fig.add_subplot(111)
+fig.show()
 
+i = 0
+x, y = [], []
 
 plt.xlabel('distance')
 plt.ylabel('time')
